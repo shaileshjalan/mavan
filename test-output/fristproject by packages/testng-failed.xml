@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [fristproject by packages]">
+  <test name="fristproject1(failed)">
+    <classes>
+      <class name="fristproject1.LoginTestCase">
+        <methods>
+          <include name="ValidTest"/>
+          <include name="BlankErrorTest"/>
+        </methods>
+      </class> <!-- fristproject1.LoginTestCase -->
+    </classes>
+  </test> <!-- fristproject1(failed) -->
+</suite> <!-- Failed suite [fristproject by packages] -->
